@@ -1,0 +1,43 @@
+.info {
+  background-color: black;
+  color: white;
+}
+.main-info {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  margin-top: 2vw;
+}
+.movie-Info {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  flex-direction: column;
+  text-align: left !important  ;
+  width: 40%;
+}
+.starcast {
+  width: 10%;
+  /* display: flex;
+flex-direction: row; */
+}
+.starcast img {
+  width: 100%;
+  margin: 1vw;
+  margin-left: 1vw;
+}
+.stardata {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 480px) {
+  .main-info {
+    flex-wrap: wrap;
+  }
+  .movie-Info {
+    width: 80%;
+  }
+  .starcast {
+    width: 20%;
+  }
+}

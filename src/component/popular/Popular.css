@@ -1,0 +1,53 @@
+.cont {
+  width: 100%;
+  margin: 0 auto;
+  height: 50%;
+}
+
+.demo {
+  width: 50vw;
+  position: relative;
+  padding: 5px;
+}
+.demo img {
+  width: 90%;
+  /* object-fit: contain; */
+}
+.top {
+  padding: 1vw 4vw;
+}
+
+.demo img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 50px;
+}
+.movieInfo {
+  position: absolute;
+  bottom: 2vw;
+  margin-left: 1vw;
+}
+.movieInfo h4 {
+  margin-bottom: 0;
+  /* font-size: medium; */
+}
+.movieInfo h7 {
+  font-size: small;
+}
+
+@media (max-width: 480px) {
+  .movieInfo {
+    bottom: 4vw;
+    margin-left: 5vw;
+  }
+}
+.slick-arrow slick-prevc {
+  display: none !important;
+}
+.slick-arrow slick-next {
+  display: none !important;
+}
+.slick-next:before {
+  display: none !important;
+}
